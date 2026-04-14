@@ -1,10 +1,10 @@
-# 📜Portfolio
+📜Portfolio
 최윤기(Richard Yoonki Choi) 포트폴리오
 
 # 👋 Intro
 > * 안녕하세요, 안전한 시스템을 위해 고민하는 개발 지향형 보안 인재입니다.
 > * 5개월 간의 보안 솔루션 전문업체 인턴 근무 경험으로 리버스 엔지니어링과, 보안 솔루션에 대한 지식을 길렀습니다.
-> * 대학 생활과 부트캠프 진행 중 진행했던 프로젝트와, 개인적인 학습 및 인턴으로 근무하며 분석했던 악성코드에 대한 것들 및 개인적으로 학습했던 보안 개론 내용을 기록했습니다.
+> * 대학 생활과 부트캠프 진행 중 진행했던 프로젝트와, 개인적인 학습 및 인턴으로 근무하며 분석했던 악성코드, 캠페인을 기록했습니다.
 
 # 📝 목차
 ### 1. [개발 프로젝트](#-개발-프로젝트) ###
@@ -43,20 +43,44 @@
 
 
 # 📂 악성코드 분석/위협 추적
-#### 1. [📄 악성코드 샘플 상세 분석 보고서](https://rikychoi.github.io/Portfolio/악성코드샘플%20분석보고서.pdf)
-* **요약**: Windows 32bit RAT+Worm
-* **핵심 기법**: 자가 복호화 및 `explorer.exe` 대상 프로세스 할로잉(Process Hollowing)
+
+#### 1. [📄 북한계 악성코드 분석보고서](https://github.com/user-attachments/files/26724361/default.pdf)
+* **요약**: 바로가기 파일로 위장한 국가 공공기관 대상의 인포스틸러
+* **핵심 기법**: .lnk 확장자를 이용한 피해자 기만 및 다중 간접 실행과 난독화로 인한 탐지/분석 난이도 악화
 * **주요 동작**: 
-    * 하드코딩된 3개 도메인과 UDP 암호화 통신 및 데이터 유출
-    * 쉘코드(1)과 (2)의 상호 감시를 통한 프로세스 유지 및 자가 전파
+    * 클라우드 서버를 활용한 C2 통신과 시스템 정보의 유출
+    * 총 4개의 파일을 사용한 간접 실행과 2중 난독화 및 암호화로 사전 탐지 방지
+
 
 ---
 
-#### 2. [📄 Phorpiex 악성코드 분석 보고서](https://rikychoi.github.io/Portfolio/Phorpiex%20분석.pdf)
+#### 2. [📄 Contagious Interview campaign 분석보고서](https://github.com/user-attachments/files/26724478/Contagious.Interview.campaign.pdf)
+* **요약**: IT 구직자들을 대상으로 암호화폐 유출을 시도하는 북한의 피싱 악성코드 캠페인
+* **핵심 기법**: 유명 기업의 채용담당자를 사칭하여 피해자를 대상으로 악성코드 설치 및 실행 유도
+* **주요 악성코드**: 
+    * BeaverTail : 사용자 브라우저의 정보에 접근해 암호화폐 지갑 정보를 유출, 아래의 InvisibleFerret 악성코드를 드롭
+    * InvisibleFerret : BeaverTail과 마찬가지로 암호화폐 정보를 유출하고 키로깅 및 공격자의 명령을 수신하여 추가 동작
+
+
+---
+
+#### 3. [📄 Phorpiex 악성코드 분석 보고서](https://rikychoi.github.io/Portfolio/Phorpiex%20분석.pdf)
 * **요약**: 스팸 메일 대량 발송 및 추가 페이로드 유포 특화 봇넷(Botnet)
 * **핵심 기법**: `Zone.Identifier` 삭제를 통한 외부 유입 흔적 은폐 및 XOR+NOT 복호화
 * **주요 동작**: 
     * HTTP 기반 C2 통신을 통한 킬스위치 확인 및 악성 페이로드(`Document.zip`) 다운로드
     * SMTP 프로토콜 직접 구현을 통한 타겟 대상 피싱 메일 대량 발송
+
+---
+
+#### 4. [📄 악성코드 샘플 상세 분석 보고서](https://rikychoi.github.io/Portfolio/악성코드샘플%20분석보고서.pdf)
+* **요약**: Windows 32bit RAT+Worm
+* **핵심 기법**: 자가 복호화 및 `explorer.exe` 대상 프로세스 할로잉(Process Hollowing)
+* **주요 동작**: 
+    * 하드코딩된 3개 도메인과 UDP 암호화 통신 및 데이터 유출
+    * 쉘코드(1)과 (2)의 상호 감시를 통한 프로세스 유지 및 자가 전파
+ 
+
+
 
 
