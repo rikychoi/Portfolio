@@ -54,7 +54,7 @@
 
 ---
 
-#### 2. [📄 Contagious Interview campaign 분석보고서](https://github.com/user-attachments/files/26724478/Contagious.Interview.campaign.pdf)
+#### 2. [📄 Contagious Interview campaign 분석보고서](https://rikychoi.github.io/Portfolio/Contagious%20Interview%20campaign%20분석보고서.pdf)
 * **요약**: IT 구직자들을 대상으로 암호화폐 유출을 시도하는 북한의 피싱 악성코드 캠페인
 * **핵심 기법**: 유명 기업의 채용담당자를 사칭하여 피해자를 대상으로 악성코드 설치 및 실행 유도
 * **주요 악성코드**: 
