@@ -12,7 +12,7 @@
 
 # 💻 개발 프로젝트
 
-#### [🔗 정보유출사고 알림 서비스](https://github.com/rikychoi/Threat_alert_service)
+#### 🔗 정보유출사고 알림 서비스 [(링크)](https://github.com/rikychoi/Threat_alert_service)
 * **요약**: `ransomware.live` Pro API를 활용하여 최신 랜섬웨어 침해사고 데이터를 수집하고 실시간 알림을 제공하는 서비스
 * **주요 역할**: 서비스 아키텍처 설계 및 백엔드 데이터 처리 로직 구현
 * **핵심 구현**: **AWS 인프라 구축, 서버 관리 및 데이터 수집기(Crawler) 개발** 총괄
@@ -23,7 +23,7 @@
 
 ---
 
-#### [🔗 (캡스톤디자인 프로젝트)BidHub: 블록체인 기반 부동산 경매 플랫폼](https://github.com/rikychoi/Capstone_BidHub)
+#### 🔗 (캡스톤디자인 프로젝트)BidHub: 블록체인 기반 부동산 경매 플랫폼 [(링크)](https://github.com/rikychoi/Capstone_BidHub)
 * **요약**: 스마트 컨트랙트를 활용하여 경매 과정의 투명성과 신뢰성을 확보한 부동산 경매 서비스
 * **주요 역할**: 시스템 전체 구조 설계 및 블록체인 스마트 컨트랙트(Solidity) 개발 담당
 * **핵심 기능**: 
@@ -32,7 +32,7 @@
 
 ---
 
-#### [🔗 소프트웨어공학및설계 과목 프로젝트 : 커뮤니티 사이트 구현](https://github.com/rikychoi/SW_Project)
+#### 🔗 소프트웨어공학및설계 과목 프로젝트 : 커뮤니티 사이트 구현 [(링크)](https://github.com/rikychoi/SW_Project)
 * **요약**: 사진 업로드 및 개인 메시지(DM) 기능을 포함한 커뮤니티 플랫폼
 * **역할**: 프론트엔드를 제외한 백엔드 로직, DB 설계 및 서버 인프라 전체 담당
 * **핵심 기능**: 
@@ -44,7 +44,7 @@
 
 # 📂 악성코드 분석/위협 추적
 
-#### 1. [📄 북한계 악성코드 분석보고서](https://rikychoi.github.io/Portfolio/북한계%20악성코드%20분석보고서.pdf)
+#### 1. 📄 북한계 악성코드 분석보고서 [(링크)](https://rikychoi.github.io/Portfolio/북한계%20악성코드%20분석보고서.pdf)
 * **요약**: 바로가기 파일로 위장한 국가 공공기관 대상의 인포스틸러
 * **핵심 기법**: .lnk 확장자를 이용한 피해자 기만 및 다중 간접 실행과 난독화로 인한 탐지/분석 난이도 악화
 * **주요 동작**: 
@@ -54,7 +54,7 @@
 
 ---
 
-#### 2. [📄 Contagious Interview campaign 분석보고서](https://rikychoi.github.io/Portfolio/Contagious%20Interview%20campaign%20분석보고서.pdf)
+#### 2. 📄 Contagious Interview campaign 분석보고서 [(링크)](https://rikychoi.github.io/Portfolio/Contagious%20Interview%20campaign%20분석보고서.pdf)
 * **요약**: IT 구직자들을 대상으로 암호화폐 유출을 시도하는 북한의 피싱 악성코드 캠페인
 * **핵심 기법**: 유명 기업의 채용담당자를 사칭하여 피해자를 대상으로 악성코드 설치 및 실행 유도
 * **주요 악성코드**: 
@@ -64,7 +64,7 @@
 
 ---
 
-#### 3. [📄 Phorpiex 악성코드 분석 보고서](https://rikychoi.github.io/Portfolio/Phorpiex%20분석.pdf)
+#### 3. 📄 Phorpiex 악성코드 분석 보고서 [(링크)](https://rikychoi.github.io/Portfolio/Phorpiex%20분석.pdf)
 * **요약**: 스팸 메일 대량 발송 및 추가 페이로드 유포 특화 봇넷(Botnet)
 * **핵심 기법**: `Zone.Identifier` 삭제를 통한 외부 유입 흔적 은폐 및 XOR+NOT 복호화
 * **주요 동작**: 
@@ -73,13 +73,9 @@
 
 ---
 
-#### 4. [📄 악성코드 샘플 상세 분석 보고서](https://rikychoi.github.io/Portfolio/악성코드샘플%20분석보고서.pdf)
+#### 4. 📄 악성코드 샘플 상세 분석 보고서 [(링크)](https://rikychoi.github.io/Portfolio/악성코드샘플%20분석보고서.pdf)
 * **요약**: Windows 32bit RAT+Worm
 * **핵심 기법**: 자가 복호화 및 `explorer.exe` 대상 프로세스 할로잉(Process Hollowing)
 * **주요 동작**: 
     * 하드코딩된 3개 도메인과 UDP 암호화 통신 및 데이터 유출
     * 쉘코드(1)과 (2)의 상호 감시를 통한 프로세스 유지 및 자가 전파
- 
-
-
-
