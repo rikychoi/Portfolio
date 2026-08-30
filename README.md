@@ -1,16 +1,34 @@
 📜Portfolio
 최윤기(Richard Yoonki Choi) 포트폴리오
 
-# 👋 Intro
-> * 안녕하세요, 안전한 시스템을 위해 고민하는 개발 지향형 보안 인재입니다.
-> * 5개월 간의 보안 솔루션 전문업체 인턴 근무 경험으로 리버스 엔지니어링과, 보안 솔루션에 대한 지식을 길렀습니다.
-> * 대학 생활과 부트캠프 진행 중 진행했던 프로젝트와, 개인적인 학습 및 인턴으로 근무하며 분석했던 악성코드, 캠페인을 기록했습니다.
-
 # 📝 목차
-### 1. [개발 프로젝트](#-개발-프로젝트) ###
-### 2. [악성코드 분석/위협 추적](#-악성코드-분석위협-추적) ###
+각 항목을 클릭하면 해당하는 위치로 이동합니다.
+### 1. [Intro](#intro)
+### 2. [Skills](#skills)
+### 3. [Qualifications/experience](#qualificationsexperience)
+### 4. [Projects](#projects)
 
-# 💻 개발 프로젝트
+# Intro
+
+# Skills
+| Skill | Experience | 3 | 
+| --- | --- | --- |
+| C++ | B | C |
+| C | F | G |
+| Golang | J | K |
+| Python | F | G |
+| IDA Pro | J | K |
+| Xdbg | F | G |
+| AWS | J | K |
+# Qualifications/experience
+- 정보처리기사
+- 정보보안기사
+- SQLD
+- ADsP
+- AWS certified solution architect - associate
+- TOEIC
+- TOEIC SPEAKING
+# Projects
 
 **🔗 정보유출사고 알림 서비스** [<ins>(github 링크)</ins>](https://github.com/rikychoi/Threat_alert_service)
 * **요약**: `ransomware.live` Pro API를 활용하여 최신 랜섬웨어 침해사고 데이터를 수집하고 실시간 알림을 제공하는 서비스
