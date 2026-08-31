@@ -5,22 +5,31 @@
 각 항목을 클릭하면 해당하는 위치로 이동합니다.
 ### 1. [Intro](#intro)
 ### 2. [Skills](#skills)
-### 3. [Qualifications/experience](#qualificationsexperience)
-### 4. [Projects](#projects)
+### 3. [experience](#experience)
+### 4. [Education](#education)
+### 5. [Qualifications](#qualifications)
+### 6. [Projects](#projects)
 
 # Intro
-
+기술을 이해하고 직접 구현할 수 있는 보안 엔지니어를 지향합니다.
+주어진 보안 업무에 머무르지 않고 필요한 개선점을 찾아 실행합니다.
+개발 역량을 활용해 반복 업무를 자동화하고 보안 문제를 구조적으로 해결합니다.
+기술적 판단뿐 아니라 서비스와 운영 환경에 미치는 영향까지 함께 고려합니다.
+문제를 발견하는 데서 끝나지 않고 실제 대응과 개선으로 연결하는 보안 엔지니어가 되고자 합니다.
 # Skills
-| Skill | Experience | 3 | 
-| --- | --- | --- |
-| C++ | B | C |
-| C | F | G |
-| Golang | J | K |
-| Python | F | G |
-| IDA Pro | J | K |
-| Xdbg | F | G |
-| AWS | J | K |
-# Qualifications/experience
+
+| Category       | Skills                                          | Notes                                    |
+| -------------- | ----------------------------------------------- | ---------------------------------------- |
+| Programming    | C, C++, Go, Python                              | 서버 기능 구현, 데이터 처리, 네트워크 프로그래밍 및 보안 도구 개발  |
+| Security       | IDA Pro, x64dbg, Nmap, Metasploit, Nuclei, YARA | 리버스 엔지니어링, 악성코드 분석, 취약점 및 네트워크 분석        |
+| Infrastructure | AWS, Linux, Docker, VMware                      | 서버 구축 및 운영, 분석 환경 구성, 서비스 배포 및 가상화 환경 활용 |
+| Backend        | Django, SQL, Git                                | API 서버 개발, 데이터 처리 및 형상 관리                |
+
+# Experience
+
+# Education
+
+# Qualifications
 - 정보처리기사
 - 정보보안기사
 - SQLD
