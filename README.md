@@ -28,6 +28,7 @@
 # Experience
 
 ### 소만사
+#### 위협대응엔진팀(현 EDR실)
 
 #### Security Engineer
 
@@ -48,7 +49,6 @@
 #### Security Intern
 
 * 2025.01~2025.02
-* EDR 팀 근무
 * IDA Pro, x64dbg를 활용한 리버스 엔지니어링
 * 훅킹과 인젝션 등 Windows 기반 공격 기법 분석
 * 악성코드 분석 및 분석 보고서 작성
