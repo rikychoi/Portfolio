@@ -23,7 +23,7 @@
 | Programming    | C, C++, Go, Python                              | 서버 기능 구현, 데이터 처리, 네트워크 프로그래밍 및 보안 도구 개발  |
 | Security       | IDA Pro, x64dbg, Nmap, Metasploit, Nuclei, YARA | 리버스 엔지니어링, 악성코드 분석, 취약점 및 네트워크 분석        |
 | Infrastructure | AWS, Linux, Docker, VMware                      | 서버 구축 및 운영, 분석 환경 구성, 서비스 배포 및 가상화 환경 활용 |
-| Backend        | Django, SQL, Git                                | API 서버 개발, 데이터 처리 및 형상 관리                |
+| Backend        | SQL, Git                                | API 서버 개발, 데이터 처리 및 형상 관리                |
 
 # Experience
 
